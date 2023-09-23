@@ -46,6 +46,11 @@ body {
   align-items: center;
 }
 
+.line{
+  border-left: 1px solid #c7c7c7;
+  height: 2.85vw;
+}
+
 .nav_toggle {
   font-size: 12.8117px;
 }
@@ -210,6 +215,13 @@ input {
   padding: 0.1875rem 0.75rem;
   color: #5b6678;
   font-size: 0.6875rem;
+}
+
+
+.main-img{
+
+  max-width:100%;
+  max-width: 100%; 
 }
 
 @media (max-width: 600px) {
