@@ -220,9 +220,75 @@ input {
   max-width: 100%;
 }
 
-.img-con{
+.img-con {
   width: 100%;
   height: 100%;
+}
+
+.freelancer-card {
+  position: absolute;
+  right: 0;
+  bottom: 2.25rem;
+  float: right;
+  z-index: 20;
+}
+
+.mini-card {
+  width: 10.6875rem;
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.035), 0 5px 5px rgba(0, 0, 0, 0.035),
+    0 12px 12px rgba(0, 0, 0, 0.035);
+  border-radius: 0.75rem;
+  background-color: hsla(0, 0%, 100%, 0.95);
+
+  text-align: center;
+}
+
+.freelancer-pic img{
+  opacity: 1;
+  margin-bottom: 0.375rem;
+  border: 0.06225rem solid rgba(37,40,55,.05);
+  border-radius: 50%;
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.freelancer-job {
+  font-size: 1.0625rem;
+  margin-bottom: 0.375rem;
+  color: #18202b;
+  line-height: 1.125rem;
+  font-style: normal;
+    font-weight: 500;
+}
+
+.freelancer-name{
+  color: #47494f;
+  font-size: .875rem;
+    line-height: 1.3125rem;
+    margin-bottom: 0;
+  font-style: normal;
+    font-weight: 300;
+}
+
+.card__ratings{
+  font-weight: 1000;
+  color: #707276;
+}
+.freelancer-ratings
+{
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0;
+  font-size: .75rem;
+  line-height: 1.125rem;
+  font-weight: 300;
 }
 @media (max-width: 600px) {
   .nav {
